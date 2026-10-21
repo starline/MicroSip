@@ -81,6 +81,7 @@ venv/
 *.db
 Contacts.xml
 *.url
+MicroSIP_log.txt
 
 # OS / editor
 Thumbs.db
