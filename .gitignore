@@ -99,3 +99,8 @@ Desktop.ini
 *.rej
 *.tmp
 *.temp
+_visual_*.png
+_sip_ring_*.txt
+
+# Visual SIP ring test outputs
+tools/incoming-call-visual-test/out/
