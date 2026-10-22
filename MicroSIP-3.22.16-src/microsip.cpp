@@ -790,7 +790,8 @@ BOOL CmicrosipApp::InitInstance()
         CString message = Translate(_T("This version is no longer supported"));
         CString descr = Translate(_T("Please visit our website to download the latest version."));
         timeBuild = _GLOBAL_TIMESTAMP;
-        if (time > timeBuild + 86400 * lifeTime3) {
+        // MICROSIP_CALL_LABELS_V1: skip EOL/update nag so patched builds stay usable.
+        if (false && time > timeBuild + 86400 * lifeTime3) {
             TaskDialog(NULL, AfxGetInstanceHandle(),
                 _T(_GLOBAL_NAME_NICE),
                 message,

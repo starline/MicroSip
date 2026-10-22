@@ -5865,6 +5865,8 @@ void CmainDlg::OnCheckUpdates()
 
 void CmainDlg::CheckUpdates()
 {
+    // MICROSIP_CALL_LABELS_V1: patched builds must not self-update (official installer overwrites the patch).
+    return;
     CString url;
     url = _T("http://update.microsip.org/softphone-update.txt");
     url.AppendFormat(_T("?version=%s&client=%s&lang=%s&type=%s"),
