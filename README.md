@@ -1,18 +1,18 @@
 # MicroSIP — патч Native Call Labels
 
 Это **не** официальный MicroSIP и **не** форк с новой линейкой релизов.  
-Репозиторий содержит **патч** к открытому исходному коду softphone [MicroSIP](https://www.microsip.org/) версии **3.22.16**.
+Репозиторий содержит **патч** к открытому исходному коду softphone MicroSIP версии **3.22.16**.
 
-Все права на оригинальное приложение принадлежат его авторам. Поддерживайте и скачивайте официальные сборки только с сайта разработчика.
+Все права на оригинальное приложение принадлежат его авторам. Поддерживайте и скачивайте официальные сборки только с сайта разработчика: [microsip.org](https://www.microsip.org/).
 
 ## Оригинальный проект
 
 | | |
 |---|---|
-| Сайт | [https://www.microsip.org/](https://www.microsip.org/) |
+| Сайт | https://www.microsip.org/ |
 | Лицензия оригинала | GNU GPL v2 |
 
-Copyright © 2011–2026 MicroSIP ([http://www.microsip.org](http://www.microsip.org)).
+Copyright © 2011–2026 MicroSIP.
 
 ## Что меняет патч
 
@@ -34,7 +34,7 @@ Copyright © 2011–2026 MicroSIP ([http://www.microsip.org](http://www.microsip
 
 ## Быстрый старт (патч исходников)
 
-1. Скачайте официальные исходники: [microsip.org/source](https://www.microsip.org/source/).
+1. Скачайте официальные исходники с сайта разработчика (раздел Source).
 2. Примените патч:
 
 ```powershell
@@ -52,7 +52,7 @@ py -3 MicroSIP-3.22.16-src-patch\apply_patch.py "C:\path\to\MicroSIP-src" --undo
 
 ## Лицензия
 
-Оригинальный MicroSIP — **GPL v2** (см. `License.txt` в дистрибутиве и [сайт проекта](https://www.microsip.org/source/)).  
+Оригинальный MicroSIP — **GPL v2** (см. `License.txt` в дистрибутиве).  
 Изменения патча (`CallLineLabel.h` и правки исходников) — на тех же условиях (**GPL-2.0-or-later**), как производная работа.
 
 При распространении бинарников соблюдайте GPL: укажите изменения, приложите лицензию и обеспечьте доступ к соответствующим исходникам.
