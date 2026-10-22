@@ -66,6 +66,7 @@ ipch/
 *.dll
 *.so
 *.dylib
+MicroSIP-3.22.16-portable-patched.zip
 
 # Python helpers
 __pycache__/
