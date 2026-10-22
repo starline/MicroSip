@@ -1,5 +1,9 @@
 # MicroSIP — патч Native Call Labels
 
+<p align="center">
+  <img src="docs/preview.jpg" alt="MicroSIP — превью интерфейса" width="720">
+</p>
+
 Это **не** официальный MicroSIP и **не** форк с новой линейкой релизов.  
 Репозиторий содержит **патч** к открытому исходному коду softphone MicroSIP версии **3.22.16**.
 
