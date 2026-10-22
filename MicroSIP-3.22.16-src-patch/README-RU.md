@@ -4,7 +4,7 @@
 
 ## Зачем
 
-Во входящем окне появляется строка с **label аккаунта** из `MicroSIP.ini` (`[AccountN] label=`). Заголовок становится **Incoming Call - Grizlicnc** (пример). Caller Name, SIP URI и кнопки ответа остаются на месте. Если label пустой, используется `username@domain` (как в остальном UI MicroSIP через `GetAccountLabel`).
+Во входящем окне появляется строка с **label аккаунта** из `MicroSIP.ini` (`[AccountN] label=`). Заголовок становится **Incoming Call - MyCompany** (пример). Caller Name, SIP URI и кнопки ответа остаются на месте. Если label пустой, используется `username@domain` (как в остальном UI MicroSIP через `GetAccountLabel`).
 
 Дополнительно патч **отключает проверку обновлений** приложения (`CheckUpdates` и EOL-напоминания). Иначе MicroSIP предлагает установить более новую официальную сборку, и при установке пропатченный `microsip.exe` затирается.
 
@@ -34,7 +34,7 @@ Label задаётся в настройках аккаунта MicroSIP (пол
 
 ```ini
 [Account1]
-label=Grizlicnc
+label=MyCompany
 ```
 
 Отдельный `call-label.ini` не используется.
